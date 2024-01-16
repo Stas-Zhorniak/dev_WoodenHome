@@ -1,0 +1,38 @@
+.navbar-light {
+	padding-top: 17px;
+	.navbar-collapse {
+		.navbar-nav {
+			max-width: 969px;
+			width: 100%;
+			justify-content: space-between;
+			align-items: center;
+			.nav-link {
+				color: #fff;
+				line-height: 146%;
+				white-space: nowrap;
+			}
+		}
+	}
+}
+
+.navbar .container {
+	max-width: 1170px;
+	display: flex;
+	justify-content: space-between;
+
+	.navbar-brand {
+		padding-bottom: 0;
+		margin-right: 0;
+	}
+}
+
+.nav-btn {
+	margin-left: 60px;
+	max-width: 171px;
+	width: 100%;
+	white-space: nowrap;
+}
+
+.navbar-toggler-icon {
+	background-image: none;
+}
